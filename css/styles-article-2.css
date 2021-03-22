@@ -1,0 +1,12 @@
+.autor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.autor-line {
+    border-top: 1px solid grey;
+    width: 300px;
+    display: inline;
+}
