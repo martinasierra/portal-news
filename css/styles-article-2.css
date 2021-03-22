@@ -32,3 +32,10 @@
     border-top: 1px solid grey;
 } 
 
+.autor-info img {
+    opacity: 0.5;
+}
+
+.autor-info img:hover {
+    opacity: 1;
+}
