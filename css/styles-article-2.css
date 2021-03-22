@@ -1,3 +1,24 @@
+.related-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.related-links a {
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.related-links > a::after {
+    content: " |";
+}
+
+
 .autor-info {
     display: flex;
     justify-content: space-between;
