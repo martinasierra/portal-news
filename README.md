@@ -1,6 +1,6 @@
-# portal-news
+# Portal-News
 
-Radium Rocket - Become a QA
+## Radium Rocket - Become a QA
 
 Week 06 - HTML
 Original webpage: 
