@@ -17,7 +17,9 @@ p {
     text-align: left;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 18px;
+   
+    line-height: 2;
 }
 
 small {
@@ -33,6 +35,24 @@ h1 {
     margin: 4px;
     letter-spacing: 8px;
     
+}
+
+.autor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.autor-line {
+    border-top: 1px solid grey;
+    width: 300px;
+    display: inline;
+}
+
+small, time {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 article {
@@ -62,6 +82,8 @@ article {
 .column-2 {
     width: 33.3%;
     margin-left: 40px;
+    padding: 15px;
+    border: 2px solid rebeccapurple;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
