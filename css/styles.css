@@ -1,0 +1,24 @@
+body {
+    background:#fff9ed;
+    text-align: center;
+}
+
+a {
+    color: #C01823;
+} 
+
+p {
+    text-align: left;
+}
+
+.category-container {
+    display: flex;
+    border: 4px solid black;
+    justify-content: space-between;
+    
+}
+
+article {
+    background: #ffffff;
+    width: 800px;
+}
