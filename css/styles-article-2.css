@@ -6,7 +6,8 @@
 }
 
 .autor-line {
-    border-top: 1px solid grey;
     width: 300px;
     display: inline;
-}
+    border-top: 1px solid grey;
+} 
+
