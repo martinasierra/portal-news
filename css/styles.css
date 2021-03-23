@@ -7,9 +7,11 @@ body {
 h1 {
     border-top: 5px solid #000000;
     border-bottom: 1px solid #000000;
-    padding: 12px;
-    margin: 4px;
-    letter-spacing: 8px;
+    padding: 15px;
+    margin-top: 0.9em;
+    font-size: 25px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -50,10 +52,35 @@ img{
     max-height: 100%;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: middle;
+    margin: 0 50px;
+}
+
+nav li{
+    list-style-type: none;
+    margin: 0 20px;
+  }
+
+  li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    letter-spacing: 2pt;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
 footer {
     clear: both;
     height: 200px;
     background: #000000;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-container {
